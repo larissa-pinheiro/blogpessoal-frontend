@@ -1,11 +1,18 @@
-import Home from './pages/home/Home'
+import Footer from './components/footer/Footer';
+import Navbar from './components/navbar/Navbar';
+import Home from './pages/home/Home';
 
 function App() {
   return (
     <>
-      <Home />
+      <Navbar />
+      <main>
+        <Home />
+      </main>
+      <Footer />
     </>
-  )
+  );
 }
 
-export default App
+
+export default App;
